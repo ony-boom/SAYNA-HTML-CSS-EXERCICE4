@@ -1,12 +1,377 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/Logo/logo1.png"
+      type="image/png"
+    />
+
+    <!-- Font => Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/c215712d95.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>W-Home</title>
+  </head>
+  <body class="position-relative text-white">
+    <nav class="navbar navbar-dark py-3 sticky-md-top top-nav absolute-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <img
+            src="assets/images/Logo/logo1.png"
+            class="img-fluid me-3"
+            alt="logo1"
+          />
+          <img
+            src="assets/images/Logo/logo2.png"
+            class="me-3"
+            height="20"
+            alt="logo2"
+          />
+          <img
+            src="assets/images/Logo/logo3.png"
+            class="img-fluid"
+            alt="logo3"
+          />
+        </a>
+
+        <ul class="navbar-nav flex-row fw-bold d-none d-md-flex">
+          <li class="nav-item me-5">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+
+          <li class="nav-item me-5">
+            <a class="nav-link" href="enemy.html">Adversaires</a>
+          </li>
+
+          <li class="nav-item me-5">
+            <a class="nav-link" href="hero.html">Héros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">A propos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="wrapper bg-red home-header">
+        <header class="d-flex align-items-center main-header">
+          <div class="container">
+            <h1 class="heading-primary text-uppercase mb-5 heading">
+              Spiderman
+            </h1>
+
+            <div class="btn-box pt-md-5">
+              <a
+                href="#"
+                class="btn-lg btn d-inline-flex align-items-center bg-light me-1 me-md-5 text-red"
+              >
+                Voir les Héros
+              </a>
+
+              <a
+                class="btn-lg btn btn-outline-light d-inline-flex align-items-center"
+              >
+                Voir les Adversaires
+              </a>
+            </div>
+
+            <p class="display-6 fw-bold mt-5">L'arraignée sympa du quartier!</p>
+          </div>
+        </header>
+
+        <section class="cinema-section">
+          <div class="container">
+            <header class="section-heading mb-5">
+              <h2 class="display-4 heading text-uppercase">
+                Les Spidermans au cinéma
+              </h2>
+
+              <p class="lead fs-3 simple-paragraph mt-5">
+                Spiderman a pu bénéficier d'un reboot qui ont permis d'adapter
+                ses histoires pour chaque générations !
+              </p>
+            </header>
+
+            <div class="row flex-column flex-sm-row">
+              <div class="col text-center">
+                <figure class="mb-5">
+                  <img
+                    src="assets/images/Illustration/img3.png"
+                    class="img-fluid"
+                    alt="Toby"
+                  />
+                  <figcaption class="mt-5">
+                    <p>
+                      Trois films Spiderman sont sortis en 2002, 2004 et 2007.
+                      Ils sont produits par Colu,bia Pictures et Spiderman est
+                      incarné par Tobey Maguire. Un quatrième était prévu mais
+                      sera finalement annulé suite à des désaccords entre Sam
+                      Raimi (le réalisateur) et Sony.
+                    </p>
+
+                    <p>
+                      Cette prémière trilogie a connu un grand succès auprès des
+                      fans et du grand public.L'épisode 3 reste à ce jour un des
+                      films les plus chers de l'histoire du cinéma.
+                    </p>
+                  </figcaption>
+                </figure>
+
+                <a
+                  href="#"
+                  class="btn-lg btn d-inline-flex align-items-center bg-light me-5 text-red"
+                >
+                  Voir ses Adversaires
+                </a>
+              </div>
+
+              <div class="col mt-5 mt-sm-0 text-center">
+                <figure class="mb-5">
+                  <img
+                    src="assets/images/Illustration/img2.png"
+                    class="img-fluid"
+                    alt="Andrew"
+                  />
+                  <figcaption class="mt-5">
+                    <p>
+                      The Amazing Spiderman est sorti en 2012, c'est Andrew
+                      Garfield aui incarne le héro et Marc Webb à la
+                      réalisation. Un deuxième volet, The Amazing Spider-Man :
+                      Le destin d'un héros, est sorti en 2014 et a reçu des
+                      critiques très mitigées. Un troisième et quatrième film
+                      était prévus pour 2016 et 2018. Finalement, Marvel et Sony
+                      trouvent un accord pour introduire Spiderman dans
+                      l'Univers cinématolographique Marvel et abandonne ainsi
+                      The Amazing Spider-Man.
+                    </p>
+                  </figcaption>
+                </figure>
+
+                <a
+                  href="#"
+                  class="btn-lg btn d-inline-flex align-items-center bg-light me-5 text-red"
+                >
+                  Voir ses Adversaires
+                </a>
+              </div>
+
+              <div class="col mt-5 mt-md-0 text-center">
+                <figure class="mb-5">
+                  <img
+                    src="assets/images/Illustration/img4.png"
+                    class="img-fluid"
+                    alt="Tom"
+                  />
+                  <figcaption class="mt-5">
+                    <p>
+                      Spiderman, désormais incarné par Tom Holland, apparaît
+                      pour la première fois dans l'Univers Marvel avec Capitain
+                      America : Civil War, sorti en 2016. Par la suite, une
+                      trillage de films lui est consacrée: 
+                      <ul>
+                        <li>Spiderman : Homecoming[2017]</li>
+                        <li>Spiderman : Far From Home [2019]</li>
+                        <li>Spiderman : No Way Home [2021]</li>
+                      </ul>
+                    </p>
+                  </figcaption>
+                </figure>
+
+                <a
+                  href="#"
+                  class="btn-lg btn d-inline-flex align-items-center bg-light text-red"
+                >
+                  Voir ses Adversaires
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="section-become">
+        <div class="container">
+          <div class="row justify-content-end">
+            <div class="col col-md-5 text-center">
+              <header class="section-heading mb-5">
+                <h2 class="display-4 heading text-uppercase">
+                  Deviens Spiderman!
+                </h2>
+    
+                <p class="lead fs-3 simple-paragraph">
+                  Rempli le formulaire ci dessous afin de recevoir ton propre costume
+                </p>
+              </header>
+    
+              <form class="mt-3" action="">
+                <input type="text" class="form-control mb-4 shadow-none" placeholder="Nom">
+                <input type="text" class="form-control mb-4 shadow-none" placeholder="Prénom">
+                <input type="number" class="form-control mb-4 shadow-none" placeholder="Taille (cm)">
+                <input type="number" class="form-control mb-4 shadow-none" placeholder="Poids (Kg)">
+                <input type="email" class="form-control" placeholder="Adresse email">
+    
+                <button type="submit" class="btn-lg btn btn-outline-light mt-5">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-newsletter bg-red">
+        <div class="container">
+          <div class="row">
+            <div class="col col-md-6">
+              <header class="section-heading mb-5">
+                <h2 class="display-4 heading text-uppercase">
+                  Inscrit toi a la newsletter
+                </h2>
+    
+                <p class="lead fs-3 simple-paragraph mt-5">
+                  L'inivers de l'araignée justicière te passionne ? 
+                  Reste au courrant des dernières actualitées grâce 
+                  à notre newsletter
+                </p>
+              </header>
+    
+              <form class="mt-4" action="">
+                <input type="text" class="form-control mb-4 shadow-none" placeholder="Nom Prénom">
+                <input type="email" class="form-control mb-5 shadow-none" placeholder="Adresse email">
+                <div class="mb-5 form-check">
+                  <input type="checkbox" class="form-check-input" id="confidentiality-check">
+                  <label class="form-check-label" for="confidentiality-check">
+                    Je reconnais accepter la <a href="#" class="text-white">politique de confidentialité de Sayna X Marvel</a>
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button
+                  type="submit"
+                  class="btn-lg btn d-inline-flex align-items-center bg-light text-red"
+                >
+                  S´inscrire à la newsletter
+                </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <nav class="navbar navbar-dark">
+          <ul class="navbar-nav flex-lg-row align-items-lg-center justify-content-between w-100">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Mobile app</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Politique de confidentialité</a>
+            </li>
+
+            <li class="nav-item" style="justify-self: center;">
+              <a href="#" class="nav-link">Cookies</a>
+            </li>
+ 
+            <li class="nav-item">
+              <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img
+                  src="assets/images/Logo/logo1.png"
+                  class="img-fluid me-3"
+                  alt="logo1"
+                />
+                <img
+                  src="assets/images/Logo/logo2.png"
+                  class="me-3"
+                  height="20"
+                  alt="logo2"
+                />
+                <img
+                  src="assets/images/Logo/logo3.png"
+                  class="img-fluid"
+                  alt="logo3"
+                />
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+
+            <li class="nav-item modifier">
+              <select name="" id="lang-select" class="form-select bg-red text-white shadow-none">
+                <option value="">Langue</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="navbar-nav social-link flex-row justify-content-center">
+          <li class="nav-item bg-red me-5">
+            <a href="#" class="nav-link text-black">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+
+          <li class="nav-item bg-red me-5">
+            <a href="#" class="nav-link text-black">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+
+          <li class="nav-item bg-red me-5">
+            <a href="#" class="nav-link text-black">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+
+
+          <li class="nav-item bg-red">
+            <a href="#" class="nav-link text-black">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+
+        <p class="text-center text-muted mt-5">
+          &copy; Sayn X Marvel 2022. We love our user
+        </p>
+
+        <div class="audio-box">
+          <audio autoplay loop controls preload="auto">
+            <source src="assets/audio/audio1.mp3">
+          </audio>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
