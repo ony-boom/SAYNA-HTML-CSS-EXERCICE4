@@ -106,6 +106,13 @@ body .btn {
   background-image: url(../images/Illustration/img19.png);
 }
 
+.about-header {
+  background-image: url(../images/Illustration/img5-miror.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .heading {
   font-family: "Spiderman", sans-serif;
   line-height: 145%;
@@ -229,7 +236,7 @@ form .form-control:active {
 
 .section-capacity .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 3%;
 }
 
@@ -365,6 +372,12 @@ footer .social-link .nav-item {
     background-size: 60%;
     background-position: bottom right;
   }
+
+  .section-capacity .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
 }
 
 @media only screen and (max-width: 536px) {
@@ -378,6 +391,10 @@ footer .social-link .nav-item {
 
   footer .navbar-brand img {
     width: 70%;
+  }
+
+  .section-value {
+    padding: 6.4rem 3%;
   }
 
   .simple-paragraph {
