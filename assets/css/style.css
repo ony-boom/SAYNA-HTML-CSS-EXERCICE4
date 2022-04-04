@@ -264,6 +264,35 @@ form .form-control:active {
   padding: 5.6rem 2%;
 }
 
+.section-contact input {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: solid 1px #fff;
+  border-radius: 2rem;
+}
+
+.section-contact :is( input:nth-child(n + 1):nth-child(-n + 3)) {
+  height: 4.2rem;
+  margin-bottom: 2.4rem;
+  color: inherit;
+  font-family: inherit;
+}
+
+.section-contact input::placeholder {
+  color: rgba(255, 255, 255, 0.459);
+
+}
+
+.section-contact .message-input {
+  height: 12rem;
+}
+
+.section-contact input {
+  outline: none;
+  text-indent: 1.6rem;
+}
+
 footer {
   background-color: #000;
 }
